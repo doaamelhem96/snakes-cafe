@@ -13,6 +13,7 @@ python snakes_cafe.py
 This project as minimize restaurant called  snakes_cafe it displays for customer a menu then he choose one of it 
 the menu contains a list of dictionary by key category
 And its value one of the:
+******
 1.	Appetizers
 2.	Entrees
 3.	Desserts
