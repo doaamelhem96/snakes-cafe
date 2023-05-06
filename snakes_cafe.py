@@ -41,7 +41,7 @@ def main():
                 print(orders[user_input], "order of", user_input, "has been added to your meal")
             else:
                 orders[user_input] += 1
-                print(orders[user_input], "order of", user_input, "has been added to your meal")
+                print(orders[user_input], "orders of", user_input, "has been added to your meal")
         elif user_input != "quit":
             print('''****************
             *** Sorry, that item does not exist. ***
@@ -53,7 +53,7 @@ def main():
 def end_application():
     print("Here is your order summary:")
     for item, count in orders.items():
-        print(count, "order of", item)
+              print(count, "order of", item)
     print("Thanks for using the Snakes Cafe application!")
 if __name__ == "__main__": 
     intro()  
